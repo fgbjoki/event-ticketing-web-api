@@ -92,7 +92,6 @@ DELETE http://localhost:3000/api/books/{id}
 ## Testing the API
 
 You can test the API using:
-- **curl** (command line) - Example:
   ```bash
   curl http://localhost:3000/api/books
   ```
@@ -118,3 +117,11 @@ src/
 **Port already in use?**
 - Another app is using port 3000
 - Stop the other app or change the port by setting: `PORT=3001 npm run dev`
+
+## Technologies Used
+
+- **Node.js** - JavaScript runtime
+- **Express** - Web framework
+- **TypeScript** - Type-safe JavaScript
+- **Zod** - Schema validation
+- **tsx** - TypeScript executor for development
